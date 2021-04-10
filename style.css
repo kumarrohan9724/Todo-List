@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0%;
+}
+html {
+  height: 100%;
+  background-image: linear-gradient(#ff6161, #dbb405);
+  font-family: sans-serif;
+  color: #0f222d;
+  background-size: auto;
+}
+
+.main {
+  width: 1000px;
+  flex-direction: column;
+  margin: auto;
+}
+header {
+  background-color: black;
+  color: blanchedalmond;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  padding: 15px;
+}
+input[type="text"] {
+  width: 100%;
+  /* padding: 12px 20px; */
+  margin: 8px 0;
+  box-sizing: border-box;
+  height: 41px;
+
+  border: none;
+  /* border-radius: 2px; */
+
+  font-size: 1.5em;
+
+  color: #2f4f4f;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8em;
+  right: -100px;
+  /* color: #53bdff;
+  height: 2.18rem;
+  outline: 0;
+  border: none;
+  width: 100px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: red;
+  box-shadow: pink; */
+}
+button{
+  color: #53bdff;
+  height: 2.18rem;
+  outline: 0;
+  border: none;
+  width: 100px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: red;
+  box-shadow: pink;
+  align-items: center;
+  text-align: center;
+  border-color: white;
+  
+}
+.tasksBoard {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  /*display: none;*/
+}
+ul {
+  list-style: none;
+}
+li {
+  border-bottom: 1px solid #53bdff;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 1.3em;
+  color: #2f4f4f;
+}
+a {
+  float: right;
+  text-align: right;
+  color: #ff6161;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.delete {
+  background-color: white;
+  padding: 0px 3px 0px 3px;
+  color: black;
+  cursor: pointer;
+}
+.search1{display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+i{
+  background-color: white;
+  height: 29px;
+  align-items: center;
+  color: gray;
+  padding-top: 12px;
+}
